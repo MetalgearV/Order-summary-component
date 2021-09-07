@@ -14,12 +14,6 @@ h1 {
   color: hsl(223, 47%, 23%);
 }
 
-.annual-plan {
-  font-family: 'Red Hat Display', serif;
-  font-weight: 700;
-  font-size: 0.9em;
-  color: hsl(223, 47%, 23%);
-}
 
 p {
   font-family: 'Red Hat Display', serif;
@@ -27,9 +21,22 @@ p {
   font-weight: 500;
 }
 
-footer{
-  position: absolute;
-  bottom: 0;
+footer {
+  position: relative;
+  bottom: -500px;
+  width: 100%;
+}
+
+.annual-plan {
+  font-family: 'Red Hat Display', serif;
+  font-weight: 700;
+  font-size: 0.9em;
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  position: relative;
+  margin: auto;
 }
 
 .order-summary-card {
