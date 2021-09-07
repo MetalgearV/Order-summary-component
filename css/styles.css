@@ -27,6 +27,11 @@ p {
   font-weight: 500;
 }
 
+footer{
+  position: absolute;
+  bottom: 0;
+}
+
 .order-summary-card {
   margin: auto;
   position: relative;
